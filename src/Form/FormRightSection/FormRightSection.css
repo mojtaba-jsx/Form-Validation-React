@@ -1,4 +1,203 @@
+@font-face {
+    font-family: 'inter-bold';
+    src: url('../../fonts/Inter-Bold.ttf');
+}
+@font-face {
+    font-family: 'inter-regular';
+    src: url('../../fonts/Inter-Regular.ttf');
+}
+@font-face {
+    font-family: 'inter-light';
+    src: url('../../fonts/Inter-Light.ttf');
+}
 .formRightSection{
     width: 50%;
     background-color: #1C4532;
+}
+
+.formRightSection__support{
+    width: 7rem;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 2rem;
+
+}
+
+.formRightSection__support-icon{
+    font-size: 2.4rem;
+    margin-right: 1rem;
+    color: #ffff;
+}
+
+.formRightSection__support-link{
+    text-decoration: none;
+    color: #ffff;
+    font-family: 'inter-regular', Courier, monospace;
+}
+
+.formRightSection{
+    position: relative;
+}
+.formRightSection-shape{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.formRightSection__card{
+    position: relative;
+}
+
+.formRightSection__card{
+    position: absolute;
+    width: 34rem;
+    height: 24rem;
+    background-color: #ffff;
+    left: 4rem;
+
+}
+
+.formRightSection__card{
+    display: block;
+    margin: 0 auto;
+    margin-top: 4rem;
+    border-radius: 1rem;
+    z-index: 1000;
+}
+
+.formRightSection__card__wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.formRightSection__card-title{
+    font-size: 2rem;
+    font-family: 'inter-bold', Courier, monospace;
+    color: #1C4532;
+    margin-left: 1rem;
+    font-weight: bold;
+    
+}
+
+.formRightSection__card-text{
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+    margin-left: 1rem;
+    width: auto;
+    font-family: 'inter-light', Courier, monospace;
+    color: #718096;
+}
+
+.formRightSection__card-btn{
+    display: inline-block;
+    margin-left: 1rem;
+    background-color: #1C4532;
+    text-decoration: none;
+    padding: 1rem 4rem;
+    color: #fff;
+    font-family: 'inter-regular', Courier, monospace;
+    border-radius: 2rem;
+
+}
+
+.formRightSection__card-right{
+    position: relative;
+}
+
+.formRightSection__card-right-image1{
+    position: absolute;
+    width: 10rem;
+    right: 0;
+    top: 1rem;
+    z-index: 14;
+}
+
+.formRightSection__card-right-image2{
+    position: absolute;
+    width: 10rem;
+    right: 0;
+    top: 6rem;
+    z-index: 10;
+}
+
+
+.formRightSection{
+    position: relative;
+}
+.formRightSection__price{
+    background-color: #ffff;
+    width: 20rem;
+    height: 5rem;
+    position: absolute;
+    right: 2rem;
+    bottom: 17rem;
+    z-index: 2000;
+    border-radius: 1rem;
+}
+
+
+.formRightSection__price{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.formRightSection__price-left{
+    width: 50%;
+
+}
+
+.formRightSection__price-left-icon{
+    font-size: 2rem;
+    margin-left: 1rem;
+    margin-top: 2rem;
+    color: #1C4532;
+}
+
+.formRightSection__price-right{
+    display: flex;
+    flex-direction: column;
+    margin-right: 7rem;
+}
+
+.formRightSection__price-right-title{
+    font-size: 1.2rem;
+    font-family: 'inter-regular', Courier, monospace;
+    color: #1C4532;
+}
+
+.formRightSection__price-right-text{
+    font-size: 2rem;
+    font-family: 'inter-bold', Courier, monospace;
+    color: #1C4532;
+
+}
+
+.formRightSection__info{
+    position: absolute;
+    /* background-color: red; */
+    width: 25rem;
+    height: 10rem;
+    right: 8rem;
+    bottom: 4rem;
+}
+
+.formRightSection__info-title{
+    font-size: 2rem;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    font-family: 'inter-bold', Courier, monospace;
+    color: #ffff;
+}
+
+.formRightSection__info-text{
+    text-align: center;
+    font-size: 1rem;
+    line-height: 1.4rem;
+    font-family: 'inter-regular', Courier, monospace;
+    color: #ffff;
 }
