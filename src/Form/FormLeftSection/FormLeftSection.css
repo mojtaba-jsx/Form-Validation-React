@@ -1,0 +1,199 @@
+@font-face {
+  font-family: "inter-Bold";
+  src: url(../../fonts/Inter-Bold.ttf);
+}
+@font-face {
+  font-family: "inter-regular";
+  src: url(../../fonts/Inter-Regular.ttf);
+}
+@font-face {
+  font-family: "inter-light";
+  src: url(../../fonts/Inter-Light.ttf);
+}
+.formLeftSection {
+  /* background-color: red; */
+}
+.formLeftSection__wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.logo-box-image {
+  margin-top: 2rem;
+  /* margin-left: 1rem; */
+}
+
+.signin-box {
+  display: flex;
+  flex-direction: column;
+  margin-left: 2rem;
+}
+
+.signin-title {
+  font-size: 2rem;
+  color: #171923;
+  font-family: "inter-Bold", Courier, monospace;
+}
+
+.signin-create {
+  font-size: 1rem;
+  opacity: 0.9;
+  font-family: "inter-regular", Courier, monospace;
+  color: black;
+}
+
+.signin-create-link {
+  color: black;
+  margin-left: 1rem;
+  font-weight: bold;
+}
+
+.signin-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.signin-form-email-label {
+  font-size: 1.2rem;
+  font-family: "inter-light", Courier, monospace;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.signin-form input {
+  padding: 1rem 8rem;
+  text-align: center;
+  border: 1px solid #cbd5e0;
+  outline: none;
+  border-radius: 1rem;
+  background-color: #f7fafc;
+}
+
+.signin-form input::placeholder {
+  font-family: "inter-light", Courier, monospace;
+  font-size: 1rem;
+}
+
+.signin-form-password-label {
+  font-size: 1.2rem;
+  font-family: "inter-light", Courier, monospace;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+.signin-form-password-box {
+  position: relative;
+}
+.signin-password-icon {
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+  font-size: 1.4rem;
+  border-left: 1px solid black;
+  padding-left: 1rem;
+  opacity: 0.8;
+}
+
+.signin-form-link {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.signin-remember-me {
+  display: flex;
+  align-items: center;
+  font-family: "inter-light", Courier, monospace;
+}
+
+.signin-forget-password-link {
+  color: black;
+  font-weight: bold;
+  font-family: "inter-light", Courier, monospace;
+}
+
+.signin-form-btn {
+  padding: 1rem;
+  font-size: 1.2rem;
+  font-family: "inter-bold", Courier, monospace;
+  border-radius: 1rem;
+  background-color: #1c4532;
+  color: #f7fafc;
+}
+
+.signin-line {
+  margin-top: 2.4rem;
+  text-align: center;
+  position: relative;
+  font-family: "inter-bold", Courier, monospace;
+}
+
+.signin-line::before {
+  position: absolute;
+  content: "";
+  width: 12rem;
+  height: 0.1rem;
+  background-color: #a0aec0;
+  right: 0;
+  top: 0.4rem;
+}
+.signin-line::after {
+  position: absolute;
+  content: "";
+  width: 12rem;
+  height: 0.1rem;
+  background-color: #a0aec0;
+  left: 0;
+  top: 0.4rem;
+}
+
+.signin-other-links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 4rem;
+}
+
+.signin-other-links-google{
+  /* background-color: red; */
+  text-align: center;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #cbd5e0;
+  border-radius: 1rem;
+  color: #67728A;
+  text-decoration: none;
+  font-family: "inter-regular", Courier, monospace;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+
+}
+
+.signin-other-links-facebook {
+    text-align: center;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #cbd5e0;
+    border-radius: 1rem;
+    /* color: #67728A; */
+    text-decoration: none;
+    font-family: "inter-regular", Courier, monospace;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+
+.signin-other-links-google,.signin-other-links-facebook{
+    position: relative;
+}
+
+.signin-other-links-google-icon ,.signin-other-links-facebook-icon{
+    position: absolute;
+    left: 2rem;
+    font-size: 2rem;
+}
+

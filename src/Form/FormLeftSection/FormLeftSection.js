@@ -3,13 +3,14 @@ import "./FormLeftSection.css";
 
 import { FcGoogle } from "react-icons/fc";
 import { FaFacebook } from "react-icons/fa";
+import { FaEye } from "react-icons/fa";
 class FormLeftSection extends Component {
   render() {
     return (
       <div className="formLeftSection">
         <div className="formLeftSection__wrapper">
           <div className="logo-box">
-            <img src="./images/Logo.png" alt="logo" />
+            <img src="./images/Logo.png" alt="logo" className="logo-box-image" />
           </div>
 
           <div className="signin-box">
@@ -22,10 +23,13 @@ class FormLeftSection extends Component {
             </span>
 
             <form className="signin-form">
-              <label> E-mail</label>
+              <label className="signin-form-email-label"> E-mail</label>
               <input type="text" placeholder="Enter Yout Eamil" />
-              <label>Password</label>
-              <input type="text" placeholder="Enter Your Password" />
+              <label className="signin-form-password-label">Password</label>
+              <span className="signin-form-password-box">
+              <input type="text" placeholder="Enter Your Password"  />
+              <FaEye className="signin-password-icon" />
+              </span>
               <div className="signin-form-link">
                 <span className="signin-remember-me">
                   <input type="checkbox" />
@@ -38,19 +42,19 @@ class FormLeftSection extends Component {
                 </span>
               </div>
 
-              <button>Sign In</button>
+              <button className="signin-form-btn">Sign In</button>
             </form>
 
             <span className="signin-line">OR</span>
 
             <div className="signin-other-links">
               <a href="#" className="signin-other-links-google">
+              <FcGoogle className="signin-other-links-google-icon"/>
               Continue with Google
-              <FcGoogle/>
               </a>
               <a href="#" className="signin-other-links-facebook">
+              <FaFacebook className="signin-other-links-facebook-icon"/>
               Continue with Facebook
-              <FaFacebook/>
               </a>
             </div>
           </div>

@@ -6,7 +6,7 @@ import FormRightSection from './FormRightSection/FormRightSection'
  class Form extends Component {
   render() {
     return (
-      <div>
+      <div className='form'>
         <FormLeftSection/>
         <FormRightSection/>
       </div>
