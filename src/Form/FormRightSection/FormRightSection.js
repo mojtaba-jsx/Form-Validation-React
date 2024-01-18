@@ -20,16 +20,31 @@ class FormRightSection extends Component {
         />
 
         <div className="formRightSection__card">
-          <h4 className="formRightSection__card-title">
-            Reach financial goals faster
-          </h4>
-          <p className="formRightSection__card-text">
-            Use your Venus card around the <br /> world with no hidden fees.
-            Hold, <br /> transfer and spend money.
-          </p>
-          <a href="#" className="formRightSection__card-btn">
-            Learn more
-          </a>
+          <div className="formRightSection__card-left">
+            <h4 className="formRightSection__card-title">
+              Reach financial goals faster
+            </h4>
+            <p className="formRightSection__card-text">
+              Use your Venus card around the <br /> world with no hidden fees.
+              Hold, <br /> transfer and spend money.
+            </p>
+            <a href="#" className="formRightSection__card-btn">
+              Learn more
+            </a>
+          </div>
+
+          <div className="formRightSection__card-right">
+            <img
+              src="./images/card.png"
+              alt="card"
+              className="formRightSection__card-right-image1"
+            />
+            <img
+              src="./images/card2.png"
+              alt="card"
+              className="formRightSection__card-right-image2"
+            />
+          </div>
         </div>
         <div className="formRightSection__price">
           <div className="formRightSection__price-left">
@@ -45,10 +60,12 @@ class FormRightSection extends Component {
 
         <div className="formRightSection__info">
           <span className="formRightSection__info-title">
-          Introducing new features
+            Introducing new features
           </span>
           <p className="formRightSection__info-text">
-          Analyzing previous trends ensures that businesses <br /> always make the right decision. And as the scale of <br /> the decision and it’s impact magnifies...
+            Analyzing previous trends ensures that businesses <br /> always make
+            the right decision. And as the scale of <br /> the decision and it’s
+            impact magnifies...
           </p>
         </div>
       </div>
