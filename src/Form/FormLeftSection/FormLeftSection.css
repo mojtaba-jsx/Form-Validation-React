@@ -198,3 +198,17 @@
     font-size: 2rem;
 }
 
+
+
+.signin-form-error{
+  color: red;
+  margin-top: 1rem;
+  font-family: "inter-regular", Courier, monospace;
+  
+}
+
+.siginin-succesfully{
+  color: green;
+  margin-top: 1rem;
+  font-family: "inter-regular", Courier, monospace;
+}

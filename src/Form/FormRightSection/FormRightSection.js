@@ -4,6 +4,8 @@ import "./FormRightSection.css";
 import { MdOutlineSupportAgent } from "react-icons/md";
 import { FaRegChartBar } from "react-icons/fa";
 class FormRightSection extends Component {
+
+
   render() {
     return (
       <div className="formRightSection">
